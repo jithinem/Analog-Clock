@@ -1,0 +1,48 @@
+html{
+    height: 100vh;
+    background-color: black;
+}
+.clock{
+    background-color: black;
+    height: 320px;
+    width: 320px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    box-sizing: content-box;
+    border-radius: 50%;
+    border: 15px solid rgb(47, 47, 91);
+    box-shadow: 15px 15px 35px bisque;
+    inset: 0 0 30px rgb(129, 58, 58);
+}
+img{
+    height: 320px;
+    width: 320px;
+}
+.string{
+    position: absolute;
+    background-color: black;
+    margin: auto;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+    transform-origin: bottom;
+}
+.hour{
+    height: 60px;
+    width: 10px;
+    top: 100px;
+}
+.minute{
+    height: 85px;
+    width: 5px;
+    top: 75px;
+}
+.seconds{
+    height: 100px;
+    width: 3px;
+    top: 60px;
+}
+
+
